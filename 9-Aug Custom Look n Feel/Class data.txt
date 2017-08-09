@@ -1,0 +1,25 @@
+RelativeLayout
+LinearLayout
+
+----------------------------------------------
+FrameLayout
+
+LinearLayout=Horizontal
+
+<TableLayout>
+
+	<TableRow>
+		<TextView>
+		
+	</TableRow>
+
+</TableLayout>
+
+
+Angry Button Maker:
+
+http://angrytools.com/android/button/
+
+Angry Gradient Generator:
+
+http://angrytools.com/gradient/
