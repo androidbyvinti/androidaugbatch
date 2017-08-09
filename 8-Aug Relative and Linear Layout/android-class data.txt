@@ -1,0 +1,40 @@
+Layouts In Android:
+
+--> Relative Layout
+
+Relative Layout--> widgets position relative to the parent and other widgets
+-------------------
+
+Adv: 	Drag and Drop(more attributes)
+	complex UI
+	Avoid Nested Layouts 
+
+Dis:	Specify the relation to set proper position
+	Dependency 
+
+-------------------
+
+LinearLayout: (Horizontally/Vertically)
+
+orientation="Horizontal/Vertical"
+
+by default="Horizontal"
+
+------------------------------------
+Dependent =" width and height"
+
+
+layout_gravity--> parent or layout
+
+gravity = "inner elements"
+
+layout_weight=
+------------------------------------
+
+
+
+
+
+
+
+
