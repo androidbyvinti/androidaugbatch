@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGray"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bmpl.gmailform.MainActivity"
+    android:padding="@dimen/padding"
+    android:orientation="vertical"
+    android:background="@color/colorGray">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        style="@style/CustomFontStyle"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginTop">
+
+        <EditText
+
+            android:id="@+id/firstEditText"
+            android:background="@android:color/white"
+            android:padding="@dimen/padding"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/first"/>
+
+        <EditText
+            android:id="@+id/lastEditText"
+            android:layout_marginLeft="@dimen/marginLeft"
+            android:background="@android:color/white"
+            android:padding="@dimen/padding"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/last"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/userName"
+        android:layout_marginTop="@dimen/marginTop"
+        style="@style/CustomFontStyle"/>
+
+        <EditText
+            android:layout_marginTop="@dimen/marginTop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:hint="@string/gmail"
+            android:padding="@dimen/padding"
+            android:textAlignment="viewEnd"
+            android:id="@+id/userNameEditText"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        android:layout_marginTop="@dimen/marginTop"
+        style="@style/CustomFontStyle"/>
+
+    <EditText
+        android:layout_marginTop="@dimen/marginTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:padding="@dimen/padding"
+        android:inputType="textPassword"
+        android:id="@+id/passwordEditText"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/confirmPassword"
+        android:layout_marginTop="@dimen/marginTop"
+        style="@style/CustomFontStyle"/>
+
+    <EditText
+        android:layout_marginTop="@dimen/marginTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:padding="@dimen/padding"
+        android:inputType="textPassword"
+        android:id="@+id/confirmPasswordEditText"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/confirmPassword"
+        android:layout_marginTop="@dimen/marginTop"
+        style="@style/CustomFontStyle"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginTop">
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:entries="@array/month"
+            android:spinnerMode="dialog"
+            android:prompt="@string/month"
+            android:id="@+id/spinnerMonth"/>
+
+        <EditText
+            android:id="@+id/dayEditText"
+            android:background="@android:color/white"
+            android:padding="@dimen/padding"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/day"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/marginLeft"/>
+
+        <EditText
+            android:id="@+id/yearEditText"
+            android:background="@android:color/white"
+            android:padding="@dimen/padding"
+            android:layout_marginLeft="@dimen/marginLeft"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/year"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+
+    <Button
+        android:text="@string/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submitButton"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/textsize"
+        android:padding="@dimen/padding"
+        android:layout_marginTop="@dimen/marginTop"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerFlag"/>
+
+</LinearLayout>
+</ScrollView>
