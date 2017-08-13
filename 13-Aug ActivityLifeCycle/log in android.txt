@@ -1,0 +1,29 @@
+
+Android Monitor--> LogCat
+
+Log--> record maintain
+
+Modes:		Priority
+
+Verbose		Min priority (basic)		
+Debug		Debug message
+Info		info 
+Warn
+Error		Max priority
+Assert--> Testing purpose(Linting)	
+
+
+
+Log.d(TAG, Message)
+
+
+TAG--> methodname, variablename, ClassName
+
+Message--> message you want to print
+
+
+Stack(LIFO)
+
+		Activity1--> Activity2--> Activity3
+
+finish() --> kill and don't place the Activity inside STACK
