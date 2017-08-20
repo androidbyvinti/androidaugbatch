@@ -1,0 +1,9 @@
+Android App Icon:
+
+https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html
+
+Android Gif Image:
+
+https://github.com/koral--/android-gif-drawable
+
+https://github.com/felipecsl/GifImageView
