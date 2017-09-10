@@ -1,0 +1,9 @@
+android animations link:
+
+https://github.com/rey5137/material
+
+http://www.androidauthority.com/10-awesome-android-libraries-709097/
+
+https://medium.freecodecamp.org/30-new-android-libraries-released-in-the-spring-of-2017-which-deserve-your-attention-faea359a1915
+
+https://github.com/glomadrian/Grav
