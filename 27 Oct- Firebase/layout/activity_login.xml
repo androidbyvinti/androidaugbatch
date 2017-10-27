@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bmpl.firebaseservice_nisha.LoginActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/fbutton_color_alizarin">
+
+        <EditText
+            android:inputType="textEmailAddress"
+            android:id="@+id/emailLoginEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Email"
+            android:textSize="22dp"
+            android:textColor="@color/fbutton_color_alizarin"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/fbutton_color_alizarin"
+        app:passwordToggleDrawable="@android:drawable/ic_menu_view"
+        app:passwordToggleEnabled="true">
+
+        <EditText
+            android:inputType="textPassword"
+            android:id="@+id/passwordLoginEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Password"
+            android:textSize="22dp"
+            android:textColor="@color/fbutton_color_alizarin"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <info.hoang8f.widget.FButton
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        fbutton:buttonColor="@color/fbutton_color_alizarin"
+        fbutton:shadowColor="@color/fbutton_color_pomegranate"
+        fbutton:shadowEnabled="true"
+        fbutton:shadowHeight="5dp"
+        fbutton:cornerRadius="5dp"
+        android:text="@string/login"
+        android:textSize="25dp"
+        android:textColor="@color/fbutton_color_clouds"
+        android:textStyle="bold"
+        android:id="@+id/loginActivityButton"/>
+
+</LinearLayout>

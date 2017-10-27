@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bmpl.firebaseservice_nisha.RegisterActivity"
+    android:gravity="center"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@color/fbutton_color_clouds"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto">
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/fbutton_color_carrot">
+
+        <EditText
+            android:backgroundTint="@color/fbutton_color_orange"
+            android:id="@+id/nameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:textColor="@color/fbutton_color_carrot"
+            android:textColorLink="@color/fbutton_color_carrot"
+            android:textSize="25dp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/fbutton_color_carrot">
+
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/fbutton_color_carrot"
+            android:textColorLink="@color/fbutton_color_carrot"
+            android:textSize="25dp"
+            android:backgroundTint="@color/fbutton_color_orange"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/fbutton_color_carrot">
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:backgroundTint="@color/fbutton_color_orange"
+            android:textColor="@color/fbutton_color_carrot"
+            android:textColorLink="@color/fbutton_color_carrot"
+            android:textSize="25dp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <info.hoang8f.widget.FButton
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        fbutton:buttonColor="@color/fbutton_color_peter_river"
+        fbutton:shadowColor="@color/fbutton_color_belize_hole"
+        fbutton:shadowEnabled="true"
+        fbutton:shadowHeight="5dp"
+        fbutton:cornerRadius="5dp"
+        android:text="@string/createAccount"
+        android:textSize="25dp"
+        android:textColor="@color/fbutton_color_clouds"
+        android:textStyle="bold"
+        android:id="@+id/createAccount"/>
+
+
+</LinearLayout>

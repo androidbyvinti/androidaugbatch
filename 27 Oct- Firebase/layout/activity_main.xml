@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bmpl.firebaseservice_nisha.MainActivity"
+    android:gravity="center"
+    android:padding="16dp"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background">
+
+    <info.hoang8f.widget.FButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        fbutton:buttonColor="@color/fbutton_color_sun_flower"
+        fbutton:shadowColor="@color/fbutton_color_orange"
+        fbutton:shadowEnabled="true"
+        fbutton:shadowHeight="5dp"
+        fbutton:cornerRadius="5dp"
+        android:text="@string/login"
+        android:textSize="25dp"
+        android:textColor="@color/fbutton_color_clouds"
+        android:textStyle="bold"
+        android:id="@+id/loginButton"
+        android:onClick="loginButtonClicked"/>
+
+    <info.hoang8f.widget.FButton
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        fbutton:buttonColor="@color/fbutton_color_sun_flower"
+        fbutton:shadowColor="@color/fbutton_color_orange"
+        fbutton:shadowEnabled="true"
+        fbutton:shadowHeight="5dp"
+        fbutton:cornerRadius="5dp"
+        android:text="@string/register"
+        android:textSize="25dp"
+        android:textColor="@color/fbutton_color_clouds"
+        android:textStyle="bold"
+        android:id="@+id/registerButton"
+        android:onClick="registerButtonClicked"/>
+
+</LinearLayout>
